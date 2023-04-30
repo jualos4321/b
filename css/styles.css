@@ -10,14 +10,24 @@
 
 .flexFotos{
     display: flex;
-    width: 300px;
     height: 300px;
-    padding-left: 400px;
+    justify-content: center;
 }
 
 #letraschicas{
-    font-size: medium;
-    padding-left: 600px;
+    font-size: small;
+}
+
+.accordion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.centrar{
+    display: flex;
+    text-align: center;
+    justify-content: center;
 }
 
 .letrasBlancas{
@@ -29,26 +39,21 @@
     justify-content: center;
 }
 
-
-
-@media(max-width: 420px){
-    .flexFotos{
-        padding-left: 0;
-    }
-    #letraschicas{
-        padding-left: 0;
-    }
-    .tamañoImg{
-        height: 5px;
-        width: 5px;
-    }
-}
-
-
 .pFlex{
     display: flex;
     padding-left: 100px;
     padding-right: 100px;
+    background-color: aqua;
+    border: #000000 solid 2px;
+}
+
+.boton{
+    border: black solid 2px;
+    padding: 10px;
+}
+
+.letrasGrandes{
+    font-size: medium;
 }
 
 
@@ -71,16 +76,12 @@
 
 
 .redesSociales{
-    width: 100px;
-    height: 100px;
-    
+    width: 50px;
+    height: 50px;
 }
 
 .redesSocialesflex{
     display: flex;
-    align-items: center;
-    flex-direction: row-reverse;
-    justify-content: space-evenly;
 }
 
 .ul{
@@ -96,7 +97,7 @@
 .estrella{
     display: flex;
     height: 300px;
-    padding-left: 650px;
+    justify-content: center;
     
 }
 .footer{
