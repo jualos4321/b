@@ -39,6 +39,17 @@
     justify-content: center;
 }
 
+.llenar{
+    display: flex;
+    justify-content: center;
+}
+
+.letrasgrandes2{
+    font-size: larger;
+    padding-bottom: 50px;
+}
+
+
 .pFlex{
     display: flex;
     padding-left: 100px;
